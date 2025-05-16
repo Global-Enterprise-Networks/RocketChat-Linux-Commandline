@@ -299,7 +299,7 @@ int main(int argc, char *argv[]) {
                 "-r : Target, such as @Fred, #General or MyTeam\n"
                 "-a : Attachment (text, image, video or audio file)\n"
                 "-m : Message OR if not used, STDIN\n\n"
-                "-c : Configuration file location (if not ~/.rocketmsg.conf)\nFor more information see https://support.gen.uk/scp/faq.php?cid=33\n");
+                "-c : Configuration file location (if not ~/.rocketmsg.conf)\nFor more information see https://support.gen.uk/kb/faq.php?id=148\n");
                 exit(EXIT_FAILURE);
             default:
                 fprintf(stderr, USAGE, argv[0]);
